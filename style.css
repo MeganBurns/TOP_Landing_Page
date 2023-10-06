@@ -61,7 +61,7 @@ ul {
   color: #e5e7eb;
 }
 
-.hero button {
+.hero-button {
   background-color: #3882f6;
   color: #e5e7eb;
   border-radius: 10px;
@@ -70,13 +70,19 @@ ul {
   font-weight: bolder;
   font-size: 18px;
   border: none;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color:#0a5ad8;
+  transition: 0.5s;
 }
 
 .placeholder {
   background-color: gray;
   max-width: 500px;
   height: 220px;
-  flex: 1;
+  flex-grow: 1;
 }
 
 .random {
@@ -158,10 +164,7 @@ ul {
   padding: 40px;
 }
 
-.modal-info {
-}
-
-.modal-info button {
+.modal-button {
   background-color: #3882f6;
   color: #e5e7eb;
   border-radius: 10px;
@@ -171,6 +174,12 @@ ul {
   font-size: 17px;
   font-weight: bold;
   border: solid;
+  cursor: pointer;
+}
+
+.modal-button:hover {
+  background-color:#0a5ad8;
+  transition: 0.5s;
 }
 
 .call {
