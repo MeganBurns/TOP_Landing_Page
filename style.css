@@ -74,8 +74,9 @@ ul {
 }
 
 .hero-button:hover {
-  background-color:#0a5ad8;
+  background-color:#ffffff;
   transition: 0.5s;
+  color: #3882f6;
 }
 
 .placeholder {
@@ -179,8 +180,9 @@ ul {
 }
 
 .modal-button:hover {
-  background-color:#0a5ad8;
+  background-color:#ffffff;
   transition: 0.5s;
+  color: #3882f6;
 }
 
 .call {
